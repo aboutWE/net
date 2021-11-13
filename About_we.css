@@ -1,0 +1,403 @@
+.writing {font-family:SourceCodePro-Regular; font-size:medium;}
+@font-face{
+    src:url(fonts/SourceCodePro-Regular.ttf);
+    font-family:SourceCodePro-Regular;
+    }
+   
+   
+
+
+
+
+
+
+
+
+ /*abouwe_feedback_form design*/
+ .display-logo-media-screen {visibility:hidden;}
+ .display-logo-full-screen {float:left; width:120px; height:80px; margin-top:-10px}
+.feedbackform_questions {font-size:18px; margin-bottom: 20px;}
+.feedback_expression {position: absolute; margin-top:25px; margin-left: -3.3%; width:20px; height:7px;}
+#abouwe_feedback_form {border:2px dashed rgba(53, 110, 163, 0.179); width:50%; float:right; line-height: 1.1em; margin:0px; padding: 3%;}
+.feedback_expression_labels {font-size:40px ;}
+.feedback_points {width:22px; height:25px; color:black;}
+.feedback_points_labels {position:absolute; margin-top:-20px; margin-left:5px; font-size: 12px;}
+#feedback_button_div {border:1px solid whitesmoke; width:50%;margin:0; padding:0;}
+.aboutwe_feedback_button1{border:3px solid black; width:50%; cursor:pointer; height:1cm; border-radius:0.2cm; padding-left:10px; padding-right:10px; margin:5px; text-align:center; background:black; color:white; font-weight:bolder;}
+.aboutwe_feedback_button2{border:3px solid whitesmoke; cursor:pointer; height:1cm; border-radius:1cm; background:whitesmoke; color:black; font-weight:bolder; font-size:17px;}
+.aboutwe_feedback_button2:hover {text-decoration: underline black 5px; transition-property:underline; transition-duration: .2s; transition-timing-function:ease-in-out; transition-delay: 0s;}
+
+*{margin:0; padding:0; text-decoration: none; font-family:Pompiere-Regular; letter-spacing: 2px; list-style-type:none;}
+
+@font-face{
+    src:url(fonts/Pompiere-Regular.ttf);
+    font-family:Pompiere-Regular;
+    }
+
+/*LOGO DESIGN*/
+
+#Latest_latest_feeds_updates_decoration {color:tomato;}
+
+#News_latest_feeds_updates_decoration {color:turquoise;}
+
+#and_latest_feeds_updates_decoration {background-color:rgba(32, 175, 218, 0.522); color:whitesmoke; border-radius: 52%; }
+
+#feeds_latest_feeds_updates_decoration {color:yellow;}
+
+#updates_latest_feeds_updates_decoration {color:blueviolet;}
+
+/*LOGO DESIGN*/
+
+
+.link1:hover{text-decoration: underline 2px tomato;}
+.link2:hover{text-decoration: underline 2px turquoise;}
+.link3:hover{text-decoration: underline 2px yellow;}
+.link4:hover{text-decoration: underline 2px blueviolet;}
+.link5:hover{text-decoration: underline 2px tomato;}
+.link6:hover{text-decoration: underline 2px turquoise;}
+.link7:hover{text-decoration: underline 2px yellow;}
+.link8:hover{text-decoration: underline 2px blueviolet;}
+.link9:hover{text-decoration: underline 2px tomato;}
+
+html {scroll-behavior: smooth;}
+
+header{width:100%; height:3.2cm; background:white; background-color: white; border-bottom:1px solid black;  position:fixed;border:1px solid beige;}
+
+.links_navbar{width:100%; height:1.5cm; background:white; background-color: white; border-bottom:1px solid black;  position:fixed; border:1px solid beige;}
+
+.subcribe_nav {margin-top: 2.8%;}
+
+main{background-color:whitesmoke; height:97.1vh; width:80%; position:relative; z-index:-1; margin-left: auto; margin-right: auto; overflow-y:visible;}
+
+.subscribe_main {height:100%; position: relative; display:inline;}
+
+.footer_links {margin-top:-7.5%;}
+
+footer{margin-top:-0.2vh; width:100%; height:0.5cm; background-image:linear-gradient(black, black, rgb(10, 0, 0), rgb(12, 11, 11), rgb(0, 0, 0), black); position:fixed; border:1px solid beige; }
+
+#checkbox_shortcut_menu{display:none;}
+
+#optional_decoration {width:65%; float:right; margin-top:-10%}
+
+#site_logo{margin-left: 2cm; display:none; color:yellowgreen}
+
+a.active{font-size:30px; font-weight:bolder; color:yellowgreen; transition: 5s; text-transform: uppercase;}
+
+.site_logo_design{display:inline-block; color:wheat;margin-top:0.7cm;}
+
+
+.nav_zero .un_order_list_zero_nav .list_part_zero {display:inline-block; margin-top:0.7cm; line-height:;}
+
+.link_items{color:black; padding: 0.2cm; font-weight: bolder}
+
+#abouwe_subscribe_form {padding:5%; margin-left:auto; margin-right: auto; background-color: white; position:static; width:40%; border:2.5px solid black;}
+
+.subscribeImage_div {position:relative; width:50%; border:1px groove transparent; margin-left:auto; margin-right: auto; padding:1%; margin-top:-4%}
+
+.subscribeImage {position:relative; width:50%; border:1px groove transparent; margin-left:25%; padding:1%;}
+
+.subscribeheading {border:1px solid black; width:100%; margin-left:auto; margin-right: auto; text-align: center;}
+
+.subscribe_form_part_flex {border:1px solid transparent; width:90%; margin-left:auto; margin-right: auto; text-align: center;}
+
+.aboutwe_subscribe_input {margin-bottom:10px; width:100%; height:0.9cm; border:3px solid black; border-radius: 2.5%; font-size:25px; font-weight:bolder;}
+
+.subscribe_input_div {position:absolute; width:36%; border:1px solid transparent; }
+
+.subscribe_button_div {position:absolute;  border:1px solid transparent; padding:-1%; margin:1%; margin-right:-60cm;}
+
+.aboutwe_subscribe_button {background-color: black; color:whitesmoke; width:4cm; height:1cm; padding:2.5%; border:1px solid black; border-radius:3%; font-size:20px; letter-spacing: 2px; font-weight:bolder; margin-top:-13px; margin-left:325px;  cursor:pointer;}
+
+.contactus {display:grid; grid-template-columns: auto; grid-template-rows: auto;}
+
+.contactus_feedback_form { grid-row: 1; grid-column: 2; width:95%; border:1px solid none;}
+
+.contactus_email {grid-row: 1; grid-column: 1; width:95%; border:1px solid none;}
+
+.contactus_livechat {grid-row: 2; grid-column: 1; width:10%;}
+
+.subcribe_text {font-size:14px; letter-spacing:2px; color:black; font-weight:bold; cursor:progress}
+
+.listDesktopDesign{display:block}
+
+.listMediaDesign{display:none}
+
+.contactus_mini_buttons {background-color: black; color:white; padding: 5%; border:2px solid white; border-radius: 5%; opacity: 1; font-size: 15px; font-weight:bolder; letter-spacing: 1.5px; transition: all .5s; cursor:pointer; }
+
+.contactus_mini_buttons_Desktop {background-color: black; color:white; padding: 10%; border:2px solid white; border-radius: 5%; opacity: 1; font-size: 20px; font-weight:bolder; letter-spacing: 1.9px; transition: all .5s; cursor:pointer;  }
+
+.Latest_news_feeds {text-align:center; justify-content:center; margin-top: 1cm; margin-bottom: 0.6cm;} 
+
+.shortcut_menus{color:black;font-size: 30px; float:right; padding:0.5cm; margin-right:0.5cm; cursor:pointer; display:none;}
+
+#checkbox_shortcut_menu-close{color:white;}
+
+.site_logo_design-footer{display:none}
+
+#site_logo1{display:none;}
+
+.news_short_content {padding:2%; margin:2%; text-align:left; justify-content:center;}
+
+.news_feeds_updates{display:flex; flex-wrap:wrap; margin-bottom: 2cm; margin-left: auto; margin-right: auto; border:1px solid black;}
+
+.news_feeds_updates0{background-color:tomato; width:300px; height:100%; margin:1%;}
+
+.news_feeds_updates1{background-color:turquoise; width:300px; height:100%; margin:1%;}
+
+.news_feeds_updates2{background-color:yellow; width:300px; height:100%; margin:1%;}
+
+.news_feeds_updates3{background-color:blueviolet; width:300px; height:100%; margin:1%;}
+
+.news_feeds_updates4{background-color:tomato; width:300px; height:100%; margin:1%;}
+
+.news_feeds_updates5{background-color:turquoise; width:300px; height:100%; margin:1%;} 
+
+.news_feeds_updates6{background-color:yellow; width:300px; height:100%; margin:1%;}
+
+.news_feeds_updates7{background-color:blueviolet; width:300px; height:100%; margin:1%;}
+
+.news_feeds_updates8{background-color:yellow; width:300px; height:100%; margin:1%;}
+
+.news_feeds_updates9{background-color:blueviolet; width:300px; height:100%; margin:1%;}
+
+.link_to_more_feeds{animation-name:link_to_more_feeds; animation-timing-function:ease; animation-duration:1s; animation-iteration-count: infinite;}
+
+@keyframes link_to_more_feeds {
+    10%{color:red;}
+    30%{color:yellow;}
+    50%{color:green;}
+    70%{color:red;}
+    90%{color:yellow;}
+    100%{color:green;}
+}
+
+.link_to_more_feeds:hover{text-decoration: underline 2px green;}
+
+.back_to_top {background: black; position:fixed; bottom:16px; right:32px; width:50px; height:50px; border-radius: 50%; display: flex; align-items: center; justify-content:center; font-size:32px; color:#1f1f1f; text-decoration:none; opacity:0; pointer-events: none; transition:all .3s; animation:toTop 3s ease infinite;}
+
+.back_to_top.active {opacity:1; pointer-events: auto; bottom: 32px;}
+
+@keyframes toTop {
+    10%{color:red;}
+    30%{color:yellow;}
+    50%{color:green;}
+    70%{color:red;}
+    90%{color:yellow;}
+    100%{color:green;}
+}
+
+
+.news_feeds_image img {width:100%; height:200px;}
+
+
+
+.options_video_clips video {width:100%; height:100%; display:none; margin:0; padding: 0;}
+
+
+
+.options_line_decoration{display:none;}
+
+
+/*
+class="videos_options"*/
+
+
+
+
+#weblogo_link_adminA #weblogo_link_imageA {margin-top: -50px;}
+
+#weblogo_link_imageA_pages {margin-top: -60px; width: 7%; height:5%;}
+
+
+.abouwe_back_button {background-color: black; color:whitesmoke; width:2cm; height:0.8cm; padding:0.5%; border:1px solid black; border-radius:3%; font-size:17px; letter-spacing: 2px; font-weight:bolder; margin-top:-2.5%; margin-right:5%; cursor:pointer; float:right; position:inline-block; box-sizing: border-box; border:1px solid white; transition: all .5s .2s ease-in-out;}
+
+.abouwe_back_button:hover {background-color: whitesmoke; color:black; transition: all .5s .2s ease-in-out;}
+
+.aboutwe_contactus {width:100%; height:34px; border-radius:5%; border:1px solid black}
+
+#aboutwe_reason_user_is_contacting_via_email { height:54px; }
+
+
+
+
+
+
+
+
+
+
+
+/*Meida queries at max-width 700px*/
+@media (max-width:700px) {
+
+
+
+
+
+    .options_menu {position:fixed; width:100%; background-color: black; z-index:1; height:12%;}
+
+    .display-logo-media-screen {visibility:visible}
+
+    .display-logo-full-screen {display:none;}
+
+    header{height:2cm;}
+
+    #weblogo_link_admin #weblogo_link_image {margin-top: 5px; width:60px; height:50px; margin-left: 100%;}
+
+    #weblogo_link_imageA {width:15%; height: 15%;}
+
+    #weblogo_link_imageA_pages {margin-top: -60px; width: 15%; height:15%;}
+
+    .link_items{color:whitesmoke; font-size:25px}
+    
+    .listDesktopDesign{display:none}
+
+    .listMediaDesign{display:block; text-decoration: underline; font-size: 30px;}
+
+    .subcribe_text_feedback, .subcribe_text_email { color:white;}
+
+    .link1, .link2, .link3, .link4, .link5, .link6, .link7, .link8, .link9{display:block; position: relative; margin-top: -0.5cm; margin-bottom: 1cm; text-align: center;}
+
+    #video1, #video3, #video5, #video7, #video9, #video11, #video13, #video15, #video17 {display:block; float: left; margin-left: 0.2cm;}
+
+    .list_items_options {font-size:14px; line-height: 2.5em;}
+
+    .list_items_options_text_design {font-weight: normal; color:white; letter-spacing: 1.5px; }
+
+    .list_items_options_text_design:hover {font-weight: bold; color:yellow; }
+
+    .list_items_options_text_design:visited {font-weight: normal; color:rgb(255, 89, 0); }
+
+    #optional_decoration {width:100%; float:none; margin-top:35%}
+    
+    .options_video_clips {width:100%;}
+
+    .options_video_clips video {width:200px; height:100%; display:flex; float:right; margin: 0; padding: 0; background-size: cover; background-repeat: no-repeat;}
+
+    .specialListDesktopDesign {text-align:center}
+
+    .aboutwe_subscribe_email, 
+    .aboutwe_reason_user_is_contacting_via_email {width:90%; height:0.8cm; border:2px solid black; font-weight:bold; font-size: 25px; letter-spacing: 2px; word-spacing: 2px; }
+
+    #video_optionsIA{margin-left:-5cm;}
+
+    .options_line_decoration {display:inline-flex; border:0.2cm solid whitesmoke; width:100%; margin-bottom: 40px;}
+
+    #site_logo{margin-left: 2cm; display:inline-block; position:absolute; color:yellowgreen;}
+
+    .Latest_news_feeds {position:inherit; border:1px solid rgba(53, 110, 163, 0.179); border-left: none; border-right: none; background-color: whitesmoke;} 
+
+    a.active{font-size:default; font-weight:normal; color:whitesmoke; transition: none; text-transform: none;}
+
+    ul {background:black;height:100vh;position:fixed;left:-100%; transition: all .5s;width:100%; overflow-y:scroll}
+
+    .nav_zero .un_order_list_zero_nav .list_part_zero {display:block; }
+
+    .list_part_zero {margin: 0; padding:0;}
+
+    .shortcut_menus{display:block;}
+
+    #checkbox_shortcut_menu:checked ~ ul {left:0;}
+
+    .news_feeds_updates{flex-direction:column; margin-bottom: 1cm;}
+
+    .news_feeds_updates0, .news_feeds_updates1, .news_feeds_updates2, .news_feeds_updates3, .news_feeds_updates4, .news_feeds_updates5, .news_feeds_updates6, .news_feeds_updates7, .news_feeds_updates8, .news_feeds_updates9{width:97%; margin-bottom:2cm;}
+
+  
+
+
+
+    /*abouwe_subscribe_form design*/
+  
+  #subscribe_form_parent_div {margin-top: -20px;}
+
+    #abouwe_subscribe_form {padding:15%; padding-bottom: 25%;  margin-left:auto; margin-right: auto; background-color: whitesmoke; position:static; width:65%; border:2.5px solid black;border-radius:3% ;}
+
+    .subcribe_text {font-size:14px; letter-spacing:2px; color:black; font-weight:bold; cursor:progress}
+
+.subscribeImage_div {position:relative; width:40%; border:1px groove transparent; margin-left:auto; margin-right: auto; padding:1%; margin-top:-4%}
+
+.subscribeImage {position:relative; width:60%; border:1px groove transparent; margin-left:25%; padding:1%;}
+
+.subscribeheading {border:1px dashed rgb(146, 79, 79); width:100%; margin-left:auto; margin-right: auto; text-align: center; color:black; font-size:17px;}
+
+.subscribe_form_part_flex {border:1px solid transparent; width:100%; margin-left:auto; margin-right: auto; text-align: center;}
+
+.aboutwe_subscribe_input {margin-bottom:10px; width:100%; height:1cm; border:3px solid black; border-radius: 10%; font-size:25px; font-weight:bolder;}
+
+.subscribe_input_div {position:absolute; width:36%; border:1px solid transparent; }
+
+.subscribe_button_div {position:absolute;  border:1px solid transparent; padding:-1%; margin:1%; margin-right:-60cm;}
+
+.aboutwe_subscribe_button_index {background-color: black; color:whitesmoke; width:252px; height:1cm; padding:2.5%; border:1px solid black; border-radius:10%; font-size:20px; letter-spacing: 2px; font-weight:bolder; margin-top:-13px; margin-left:0px;  cursor:pointer;}
+
+.aboutwe_subscribe_button {background-color: black; color:whitesmoke; width:4cm; height:1cm; padding:2.5%; border:1px solid black; border-radius:10%; font-size:20px; letter-spacing: 2px; font-weight:bolder; margin-top:-13px; margin-left:0px;  cursor:pointer;}
+
+
+
+
+
+/*feedback form media queries styling */
+#site_logo_feedback {float:left; margin-left:-20px; margin-top:-20px; padding:0; position:relative}
+#weblogo_link_image_feedback {width:70px; height:55px}
+.We_apperciate_your_feedback {text-align:left; font-size:22px; color:#00a5b8; word-spacing:3px; letter-spacing:2px; font-weight:10px;} 
+.feedbackform_questions {font-size:16px; word-spacing:3px; letter-spacing:2px; font-weight:10px;} 
+.feedbackFormPart1 {line-height:3em;}
+.feedback_expression {cursor:pointer; position: relative; margin-top:-9px; margin-left: 5%; width:60px; height:60px; z-index:-1 ;}
+#abouwe_feedback_form {border:2px dashed rgb(255, 255, 255);line-height: 1.8em; margin-top:0px; margin-left:0px; margin-right:0px; margin-bottom:20px; padding: 3%; background-color: whitesmoke; border-radius:3%;  color:black; width:90%;}
+.feedback_expression_labels {font-size:50px; cursor:pointer;}
+.feedback_expression_writeup {display:none; font-size:13px; margin:10%; background:rgb(228, 165, 4); color:whitesmoke; font-weight:bolder; margin-top:-20%; border-radius:5%}
+.feedback_points {width:18px; height:23px; color:black;}
+.feedback_points_labels {position:absolute; margin-top:-30px; font-size: 12px; color:red;}
+#feedback_button_div {border:1px solid whitesmoke; width:100%; margin-top:50px; margin-left:0px; margin-right:0px; margin-bottom:0px;  padding:0;}
+.aboutwe_feedback_button1{border:3px solid #00a5b8; width:50%; cursor:pointer; height:1cm; border-radius:0.2cm; padding-left:10px; padding-right:10px; margin:5px; text-align:center; background:#00a5b8; color:white; font-weight:bolder; font-size:22px;}
+.aboutwe_feedback_button1:hover{text-decoration: underline 2px whitesmoke;}
+.aboutwe_feedback_button2{border:3px solid whitesmoke; cursor:pointer; height:1cm; border-radius:1cm; background:whitesmoke; color:#00a5b8; font-weight:bolder; font-size:17px;}
+.aboutwe_feedback_button2:hover {text-decoration: underline #00a5b8 3px; transition-property:underline; transition-duration: .2s; transition-timing-function:ease-in-out; transition-delay: 0s;}
+.feedback_form_text {width:85%}
+.feedbackFormPart3 {margin-top:25px;}
+#feedback_button_div {margin-top:4cm;}
+
+}
+
+
+
+
+/*media queries at min-width 1000px styling begins*/
+   
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1700px) {
+
+
+    #optional_decoration {width:65%; float:right; margin-top:-6.5%;}
+  
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
