@@ -6,28 +6,45 @@
    
    
 
+    .drop_down_notification {font-size:16px;  transition:all .3s; animation:drop_down_notification 3s ease infinite;}
+
+   
+    @keyframes drop_down_notification {
+        10%{color:red;}
+        30%{color:yellow;}
+        50%{color:green;}
+        70%{color:red;}
+        90%{color:yellow;}
+        100%{color:green;}
+    }
+    .drop_down_notification:hover {font-size:16px; color:#1f1f1f; transition:all .3s; animation:none;}
 
 
-
-
+.nav_zero {margin-top:-0.4cm}
 
 .media_queries_only{display:none}
 
-.link_dropdown {margin-top:40px; float:left; margin-left:-2.8cm; border:1px solid transparent; position:absolute; color:black; padding: 0.2cm; font-weight: bolder; width:100%;}
+.link_dropdown{background:khaki; width:auto; margin-top:40px;  height:1rem; border-top:1px dotted tomato; border-bottom:1px dotted turquoise; border-left:1px dotted yellow; border-right:1px dotted blueviolet; border-top-left-radius: 1rem; border-top-right-radius: 1rem; border-bottom-right-radius: 1rem; border-bottom-left-radius: 1rem; cursor:grab; float:left; margin-left:-2.8cm;  position:fixed; display:flex; color:black;  padding: 0.2cm; font-weight: bolder; }
 
-a.active{font-size:15px; font-weight:bolder; color:black; text-align:center; justify-content:space-around; text-transform:capitalize; margin-top:0.1cm; margin-left:30px;}
+.link_dropdown .drop_down {display:none; background:whitesmoke; border-top:1px dotted tomato; border-bottom:1px dotted turquoise; border-left:1px dotted yellow; border-right:1px dotted blueviolet; border-top-left-radius: 1rem; border-top-right-radius: 1rem; border-bottom-right-radius: 1rem; border-bottom-left-radius: 1rem;  z-index:-1; height:0.9cm; position: relative; margin-left:-8.8cm; margin-top: 0.7cm; transition-property:all; transition-duration: 2s; transition-timing-function: ease-in-out; transition-delay: 15s; }
 
-.link_dropdown:hover > .drop_down {display:flex; transition-property:all; transition-duration: 2s; transition-timing-function: ease-in-out; transition-delay: 15s;}
+.link_dropdown:hover  >.drop_down {display:inline-flex; position: fixed; transition-property:all; transition-duration: 2s; transition-timing-function: ease-in-out; transition-delay: 15s;}
 
-.drop_down {display:none; width:100%; margin-left:-8cm; margin-top:-0.5cm; transition-property:all; transition-duration: 2s; transition-timing-function: ease-in-out; transition-delay: 15s; }
 
-.link_items{color:black; padding: 0.2cm; font-weight: bolder; width:100%; border:1px solid transparent;}
+#weblogo_link_imageA {}
 
+    #weblogo_link_imageA_pages {margin-top: -60px; width: 15%; height:15%;}
+
+.list_items_dropdown {margin:5px; margin-top:-0.7cm; position:relative; padding: 2px; color:black}
+
+a.active{z-index: 1; background:whitesmoke; font-size:15px; font-weight:bolder; color:black; text-align:center; justify-content:space-around; text-transform:capitalize; margin-top:0.4cm; margin-left:2cm;}
+
+.un_order_list_zero_nav .list_part_zero {display:inline-flex; margin-top:0.9cm;}
  /*abouwe_feedback_form design*/
  
  .options_menu {position:relative; width:100%; height:auto; margin-top:1.2cm;}
  .display-logo-media-screen {visibility:hidden;}
- .display-logo-full-screen {float:left; border-top:1px dotted tomato; border-bottom:1px dotted turquoise; border-left:1px dotted yellow; border-right:1px dotted blueviolet; position:absolute; width:70px; height:40px; padding:0%; margin:0%;}
+ .display-logo-full-screen {float:left; border-top:1px dotted tomato; border-bottom:1px dotted turquoise; border-left:1px dotted yellow; border-right:1px dotted blueviolet; border-top-left-radius: 1rem; border-top-right-radius: 1rem; border-bottom-right-radius: 1rem; border-bottom-left-radius: 1rem; position:absolute; width:70px; height:40px; padding:0%; margin:0%;}
 .feedbackform_questions {font-size:18px; margin-bottom: 20px;}
 .feedback_expression {position: absolute; margin-top:25px; margin-left: -3.3%; width:20px; height:7px;}
 #abouwe_feedback_form {border:2px dashed rgba(53, 110, 163, 0.179); width:50%; float:right; line-height: 1.1em; margin:0px; padding: 3%;}
@@ -61,15 +78,14 @@ a.active{font-size:15px; font-weight:bolder; color:black; text-align:center; jus
 /*LOGO DESIGN*/
 
 
-.link1:hover{text-decoration: underline 2px tomato;}
-.link2:hover{text-decoration: underline 2px turquoise;}
-.link3:hover{text-decoration: underline 2px yellow;}
-.link4:hover{text-decoration: underline 2px blueviolet;}
-.link5:hover{text-decoration: underline 2px tomato;}
-.link6:hover{text-decoration: underline 2px turquoise;}
-.link7:hover{text-decoration: underline 2px yellow;}
-.link8:hover{text-decoration: underline 2px blueviolet;}
-.link9:hover{text-decoration: underline 2px tomato;}
+.link1:hover {border:solid 2px tomato; cursor:grabbing; }
+.link2:hover {border:solid 2px turquoise; cursor:grabbing; }
+.link3:hover {border:solid 2px yellow; cursor:grabbing; }
+.link4:hover {border:solid 2px blueviolet; cursor:grabbing; }
+.link5:hover {border:solid 2px tomato; cursor:grabbing; }
+.link6:hover {border:solid 2px turquoise; cursor:grabbing; }
+.link7:hover {border:solid 2px yellow; cursor:grabbing; }
+.link8:hover {border:solid 2px blueviolet; cursor:grabbing; }
 
 html {scroll-behavior: smooth;}
 
@@ -94,11 +110,6 @@ footer{margin-top:-0.2vh; width:100%; height:0.5cm; background-image:linear-grad
 #site_logo{margin-left: 2cm; display:none; color:yellowgreen}
 
 .site_logo_design{display:inline-block; color:wheat;margin-top:0.7cm;}
-
-
-.nav_zero .un_order_list_zero_nav .list_part_zero {display:inline-block; margin-top:1cm;}
-
-
 
 #abouwe_subscribe_form {padding:5%; margin-left:auto; margin-right: auto; background-color: white; position:static; width:40%; border:2.5px solid black;}
 
@@ -214,7 +225,7 @@ class="videos_options"*/
 
 
 
-#weblogo_link_adminA #weblogo_link_imageA {margin-top: -50px;}
+
 
 #weblogo_link_imageA_pages {margin-top: -60px; width: 7%; height:5%;}
 
@@ -247,13 +258,13 @@ class="videos_options"*/
 
     .options_menu {position:fixed; width:100%; background-color: black; z-index:1; height:12%; margin-top:-1.5%;}
 
-    .display-logo-media-screen {visibility:visible; }
+    .display-logo-media-screen {visibility:visible; margin-top:30px;  width:35%; height:35%; display:block;}
 
     .display-logo-full-screen {display:none;}
 
     header{height:2cm;}
 
-    #weblogo_link_admin #weblogo_link_image {margin-top: 5px; width:60px; height:50px; margin-left: 100%;}
+    #weblogo_link_image {margin-top: 10px; width:60px; height:50px; }
 
     #weblogo_link_imageA {width:15%; height: 15%;}
 
@@ -418,6 +429,8 @@ class="videos_options"*/
     
     .news_feeds_updates9{background-color:blueviolet; width:300px; height:100%; margin:2%;}
 
+
+    .link_dropdown .drop_down {display:none; background:white; border-top:1px dotted transparent; border-bottom:1px dotted transparent; border-left:1px dotted transparent; border-right:1px dotted transparent; position: relative;  transition-property:all; transition-duration: 2s; transition-timing-function: ease-in-out; transition-delay: 15s; }
 
 
 
