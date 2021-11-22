@@ -65,13 +65,159 @@ function resetExpressions() {
 
 
 function sendEffect() {
- document.querySelector(".send_feedback_effect").innerHTML="sending...";
+ document.querySelector(".send_feedback_effect").innerHTML="Sending...";
 
 }
 
 
 
 //reset feedback form expressions fields//
+
+
+
+
+//function to manupulate subscribe buttons DOM
+
+
+var subscribe_email_js_validation = document.getElementById("aboutwe_subscribe_input_email_index");
+
+
+
+var addSubscribeButtonClickEvent = document.querySelector(".aboutwe_subscribe_button_desktop");
+addSubscribeButtonClickEvent.addEventListener("click", function() {
+
+
+    if (subscribe_email_js_validation.value == '')
+    {alert("Field is important.");
+    subscribe_email_js_validation.focus();
+    subscribe_email_js_validation.style.border="1px solid red";
+    return false;}
+    document.querySelector("#subscribe_tag").innerHTML="Subscribing..";
+    return true;
+
+});
+
+
+window.addEventListener("load", function() {
+    document.querySelector("#subscribe_tag").innerHTML="Subscribe"; 
+})
+
+document.querySelector(".aboutwe_subscribe_reset_button_desktop").addEventListener("click", function () {
+
+    document.querySelector("#subscribe_tag").innerHTML="Subscribe";
+})
+
+
+
+
+//script for onclick display options for subscribe option, donate option and contact us option.
+
+
+
+var clickEvent_subscribe = document.getElementById("subscribe_word");
+var dropDownFunction_subscribe = document.getElementById("subscribe_dropdown");
+var clickEvent_donate = document.getElementById("donate_word");
+var dropDownFunction_donate = document.getElementById("donate_dropdown");
+var clickEvent_contactus = document.getElementById("contactus_word");
+var dropDownFunction_contactus = document.getElementById("contactus_dropdown");
+
+
+
+
+clickEvent_subscribe.addEventListener("click", function(){
+
+dropDownFunction_subscribe.style.display="block";
+dropDownFunction_donate.style.display="none";
+dropDownFunction_contactus.style.display="none";
+
+}); clickEvent_subscribe.addEventListener("dblclick", function(){
+
+    dropDownFunction_subscribe.style.display="none";
+    
+    });
+
+
+
+
+
+
+
+    clickEvent_donate.addEventListener("click", function(){
+
+        dropDownFunction_donate.style.display="block";
+        dropDownFunction_subscribe.style.display="none";
+        dropDownFunction_contactus.style.display="none";
+        
+        }); clickEvent_donate.addEventListener("dblclick", function(){
+        
+            dropDownFunction_donate.style.display="none";
+            
+            });
+
+            
+
+
+
+
+
+clickEvent_contactus.addEventListener("click", ()=>{
+
+    dropDownFunction_contactus.style.display="block";
+    dropDownFunction_subscribe.style.display="none";
+    dropDownFunction_donate.style.display="none";
+    
+    }); clickEvent_contactus.addEventListener("dblclick", ()=>{
+    
+        dropDownFunction_contactus.style.display="none";
+        
+        });
+    
+
+//script for onclick display options for subscribe option, donate option and contact us option.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

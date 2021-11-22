@@ -8,7 +8,10 @@
 
     .drop_down_notification {font-size:16px;  transition:all .3s; animation:drop_down_notification 3s ease infinite;}
 
-   
+
+
+
+
     @keyframes drop_down_notification {
         10%{color:red;}
         30%{color:yellow;}
@@ -31,6 +34,55 @@
 .link_dropdown:hover  >.drop_down {display:inline-flex; position: fixed; transition-property:all; transition-duration: 2s; transition-timing-function: ease-in-out; transition-delay: 15s;}
 
 
+
+
+
+.link_subscribe_dropdown, 
+.link_donate_dropdown,
+.link_contactus_dropdown
+{width:auto; height:1rem; border-bottom:1px solid black; border-top-left-radius: 1rem; border-top-right-radius: 1rem; border-bottom-right-radius: 1rem; border-bottom-left-radius: 1rem; cursor:grab; float:left;  position:relative; display:inline; color:black;  padding: 0.2cm; font-weight: bolder;  margin-left:7.5%;}
+
+
+
+.link_subscribe_dropdown:hover, 
+.link_donate_dropdown:hover,
+.link_contactus_dropdown:hover
+{ border-top:1px solid black; transition-duration:8s ; transition-property: all; transition-timing-function:ease-in-out; transition-delay: 0s;}
+
+
+.link_subscribe_dropdown .drop_down {display:none; background-image:linear-gradient(transparent, transparent, transparent, turquoise, blueviolet, tomato ); z-index:-1; height:75vh; width:100vh; margin-right:50vh; position: absolute; transform: rotate(3.5deg);  border-top-right-radius: 10rem; border-bottom-right-radius: 10rem; border-bottom-left-radius: 10rem; margin-top: 2.5cm; transition-property:all; transition-duration: 2s; transition-timing-function: ease-in-out; transition-delay: 15s; }
+.link_subscribe_dropdown:hover  >.drop_down {display:inline-flex; position: absolute; transition-property:all; transition-duration: 2s; transition-timing-function: ease-in-out; transition-delay: 15s;}
+
+
+
+
+
+.link_donate_dropdown .drop_down {display:none; background:black; z-index:-1; height:50vh; width:100vh; position: absolute;  margin-top: 2.1cm; transition-property:all; transition-duration: 2s; transition-timing-function: ease-in-out; transition-delay: 15s; }
+
+.link_donate_dropdown:hover  >.drop_down {display:inline-flex; position: fixed; transition-property:all; transition-duration: 2s; transition-timing-function: ease-in-out; transition-delay: 15s;}
+
+
+
+
+
+.link_contactus_dropdown .drop_down {display:none; background:black; z-index:-1; height:50vh; width:100vh; position: absolute;  margin-top: 2.1cm; transition-property:all; transition-duration: 2s; transition-timing-function: ease-in-out; transition-delay: 15s; }
+
+.link_contactus_dropdown:hover  >.drop_down {display:inline-flex; position: fixed; transition-property:all; transition-duration: 2s; transition-timing-function: ease-in-out; transition-delay: 15s;}
+
+
+    /*my css modal box design*/
+
+    #orodje_modalbox_container_0 {border:1px solid black; background:black; transform:rotate(-3deg); width:70%; height:70%; margin-left:auto; margin-right:auto; position:absolute; }
+    #orodje_modalbox_container_1 {border:1px solid whitesmoke; background:whitesmoke;}
+    #orodje_modalbox_container_2 {border:1px solid whitesmoke; background:whitesmoke;}
+
+
+    #orodje_modalbox_container_0, #orodje_modalbox_container_1 
+    ,#orodje_modalbox_container_2 { margin:5%; border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; border-bottom-right-radius: 0.5rem; border-bottom-left-radius: 0.5rem; }
+
+
+    /*my css modal box design*/
+
 #weblogo_link_imageA {}
 
     #weblogo_link_imageA_pages {margin-top: -60px; width: 15%; height:15%;}
@@ -40,14 +92,14 @@
 a.active{z-index: 1; background:whitesmoke; font-size:15px; font-weight:bolder; color:black; text-align:center; justify-content:space-around; text-transform:capitalize; margin-top:0.4cm; margin-left:2cm;}
 
 .un_order_list_zero_nav .list_part_zero {display:inline-flex; margin-top:0.9cm;}
- /*abouwe_feedback_form design*/
+ /*aboutwe_feedback_form design*/
  
  .options_menu {position:relative; width:100%; height:auto; margin-top:1.2cm;}
  .display-logo-media-screen {visibility:hidden;}
  .display-logo-full-screen {float:left; border-top:1px dotted tomato; border-bottom:1px dotted turquoise; border-left:1px dotted yellow; border-right:1px dotted blueviolet; border-top-left-radius: 1rem; border-top-right-radius: 1rem; border-bottom-right-radius: 1rem; border-bottom-left-radius: 1rem; position:absolute; width:70px; height:40px; padding:0%; margin:0%;}
 .feedbackform_questions {font-size:18px; margin-bottom: 20px;}
 .feedback_expression {position: absolute; margin-top:25px; margin-left: -3.3%; width:20px; height:7px;}
-#abouwe_feedback_form {border:2px dashed rgba(53, 110, 163, 0.179); width:50%; float:right; line-height: 1.1em; margin:0px; padding: 3%;}
+#aboutwe_feedback_form {border:2px dashed rgba(53, 110, 163, 0.179); width:50%; float:right; line-height: 1.1em; margin:0px; padding: 3%;}
 .feedback_expression_labels {font-size:40px ;}
 .feedback_points {width:22px; height:25px; color:black;}
 .feedback_points_labels {position:absolute; margin-top:-20px; margin-left:5px; font-size: 12px;}
@@ -111,7 +163,7 @@ footer{margin-top:-0.2vh; width:100%; height:0.5cm; background-image:linear-grad
 
 .site_logo_design{display:inline-block; color:wheat;margin-top:0.7cm;}
 
-#abouwe_subscribe_form {padding:5%; margin-left:auto; margin-right: auto; background-color: white; position:static; width:40%; border:2.5px solid black;}
+#aboutwe_subscribe_form {padding:0%; margin-left:auto; margin-right: auto; background-color: white; position:static; width:100%; border:2.5px solid black;}
 
 .subscribeImage_div {position:relative; width:50%; border:1px groove transparent; margin-left:auto; margin-right: auto; padding:1%; margin-top:-4%}
 
@@ -121,13 +173,34 @@ footer{margin-top:-0.2vh; width:100%; height:0.5cm; background-image:linear-grad
 
 .subscribe_form_part_flex {border:1px solid transparent; width:90%; margin-left:auto; margin-right: auto; text-align: center;}
 
-.aboutwe_subscribe_input {margin-bottom:10px; width:100%; height:0.9cm; border:3px solid black; border-radius: 2.5%; font-size:25px; font-weight:bolder;}
+.aboutwe_subscribe_input {margin-bottom:10px; width:100%; height:0.9cm; border:1px solid black; border-radius: 1.5%; font-size:16.5px; font-weight:bolder;}
 
 .subscribe_input_div {position:absolute; width:36%; border:1px solid transparent; }
 
 .subscribe_button_div {position:absolute;  border:1px solid transparent; padding:-1%; margin:1%; margin-right:-60cm;}
 
-.aboutwe_subscribe_button {background-color: black; color:whitesmoke; width:4cm; height:1cm; padding:2.5%; border:1px solid black; border-radius:3%; font-size:20px; letter-spacing: 2px; font-weight:bolder; margin-top:-13px; margin-left:325px;  cursor:pointer;}
+.aboutwe_subscribe_button_desktop, .aboutwe_subscribe_reset_button_desktop  {background-color: black; color:whitesmoke; width:3cm; height:1cm; padding:1.5%; border:1px solid black; border-top-left-radius: 1rem; border-top-right-radius: 1rem; border-bottom-right-radius: 1rem; border-bottom-left-radius: 1rem; font-size:18px; letter-spacing: 2px; font-weight:bolder; margin-top:-13px;  cursor:pointer;}
+
+.aboutwe_subscribe_button_desktop:hover  {background-color:tomato; color:khaki; border:1px solid tomato; }
+
+.aboutwe_subscribe_reset_button_desktop {margin-left:3.5cm; margin-top:-1.2cm; position:absolute;}
+
+.aboutwe_subscribe_reset_button_desktop:hover {background-color:khaki; color:tomato; border:1px solid khaki; }
+
+.paragraph_subscribe {margin-top:10.5cm; margin-left:2cm; font-size:25px; animation:subscribe_paragraph 5s ease infinite;}
+
+
+
+
+
+@keyframes subscribe_paragraph {
+    10%{color:tomato; font-size:25px; transform:rotate(-3deg);}
+    30%{color:turquoise; font-size:20px;}
+    50%{color:yellow; font-size:18px;}
+    70%{color:blueviolet; font-size:15px;}
+    90%{color:tomato; font-size:18px;}
+    100%{color:turquoise;font-size:20px;}
+}
 
 .contactus {display:grid; grid-template-columns: auto; grid-template-rows: auto;}
 
@@ -163,7 +236,7 @@ footer{margin-top:-0.2vh; width:100%; height:0.5cm; background-image:linear-grad
 
 .news_feeds_updates0{background-color:tomato; width:300px; height:100%; margin:1.3%;}
 
-.news_feeds_updates1{background-color:turquoise; width:300px; height:100%; margin:1%;}
+.news_feeds_updates1{background-color:turquoise; width:300px; height:100%; margin:1.3%;}
 
 .news_feeds_updates2{background-color:yellow; width:300px; height:100%; margin:1%;}
 
@@ -230,9 +303,9 @@ class="videos_options"*/
 #weblogo_link_imageA_pages {margin-top: -60px; width: 7%; height:5%;}
 
 
-.abouwe_back_button {background-color: black; color:whitesmoke; width:2cm; height:0.8cm; padding:0.5%; border:1px solid black; border-radius:3%; font-size:17px; letter-spacing: 2px; font-weight:bolder; margin-top:-2.5%; margin-right:5%; cursor:pointer; float:right; position:inline-block; box-sizing: border-box; border:1px solid white; transition: all .5s .2s ease-in-out;}
+.aboutwe_back_button {background-color: black; color:whitesmoke; width:2cm; height:0.8cm; padding:0.5%; border:1px solid black; border-radius:3%; font-size:17px; letter-spacing: 2px; font-weight:bolder; margin-top:-2.5%; margin-right:5%; cursor:pointer; float:right; position:inline-block; box-sizing: border-box; border:1px solid white; transition: all .5s .2s ease-in-out;}
 
-.abouwe_back_button:hover {background-color: whitesmoke; color:black; transition: all .5s .2s ease-in-out;}
+.aboutwe_back_button:hover {background-color: whitesmoke; color:black; transition: all .5s .2s ease-in-out;}
 
 .aboutwe_contactus {width:100%; height:34px; border-radius:5%; border:1px solid black}
 
@@ -251,16 +324,21 @@ class="videos_options"*/
 /*Meida queries at max-width 700px*/
 @media (max-width:700px) {
 
+    #paragraph_subscribe {display:none;}
+
     .link_dropdown{display:none;}
 
+    .form_desktop_view, #subscribe_word, #donate_word, #contactus_word {display: none;}
     
     .media_queries_only {display:inline-block;}
 
     .options_menu {position:fixed; width:100%; background-color: black; z-index:1; height:12%; margin-top:-1.5%;}
 
-    .display-logo-media-screen {visibility:visible; margin-top:30px;  width:35%; height:35%; display:block;}
+    .display-logo-media-screen {visibility:visible; margin-top:25px; margin-left:5px; width:15%; height:55%; display:block;}
 
     .display-logo-full-screen {display:none;}
+
+    #closeimage {margin-top:20px;}
 
     header{height:2cm;}
 
@@ -305,7 +383,7 @@ class="videos_options"*/
 
     .options_line_decoration {display:inline-flex; border:0.2cm solid whitesmoke; width:100%; margin-bottom: 40px;}
 
-    .options_line_decoration0 {margin-top: -18px; border:0.2cm solid whitesmoke; }
+    .options_line_decoration0 {margin-top:-0.5cm; border:0.2cm solid whitesmoke; }
 
     #site_logo{margin-left: -2cm; display:inline-block; position:absolute; color:yellowgreen;}
 
@@ -331,11 +409,11 @@ class="videos_options"*/
 
 
 
-    /*abouwe_subscribe_form design*/
+    /*aboutwe_subscribe_form design*/
   
   #subscribe_form_parent_div {margin-top: -20px;}
 
-    #abouwe_subscribe_form {padding:15%; padding-bottom: 25%;  margin-left:auto; margin-right: auto; background-color: whitesmoke; position:static; width:65%; border:2.5px solid black;border-radius:3% ;}
+    #aboutwe_subscribe_form {padding:15%; padding-bottom: 25%;  margin-left:auto; margin-right: auto; background-color: whitesmoke; position:static; width:65%; border:2.5px solid black;border-radius:3% ;}
 
     .subcribe_text {font-size:14px; letter-spacing:2px; color:black; font-weight:bold; cursor:progress}
 
@@ -347,15 +425,15 @@ class="videos_options"*/
 
 .subscribe_form_part_flex {border:1px solid transparent; width:100%; margin-left:auto; margin-right: auto; text-align: center;}
 
-.aboutwe_subscribe_input {margin-bottom:10px; width:100%; height:1cm; border:3px solid black; border-radius: 10%; font-size:25px; font-weight:bolder;}
+.aboutwe_subscribe_input {margin-bottom:10px; width:100%; height:1cm; border:1px solid rgb(139, 137, 139); border-radius: 2%; font-size:20px; font-weight:bolder;}
 
 .subscribe_input_div {position:absolute; width:36%; border:1px solid transparent; }
 
 .subscribe_button_div {position:absolute;  border:1px solid transparent; padding:-1%; margin:1%; margin-right:-60cm;}
 
-.aboutwe_subscribe_button_index {background-color: black; color:whitesmoke; width:252px; height:1cm; padding:2.5%; border:1px solid black; border-radius:10%; font-size:20px; letter-spacing: 2px; font-weight:bolder; margin-top:-13px; margin-left:0px;  cursor:pointer;}
+.aboutwe_subscribe_button_index {background-color: black; color:whitesmoke; width:252px; height:1cm; padding:2.5%; border:1px solid black;  border-top-left-radius: 1rem; border-top-right-radius: 1rem; border-bottom-right-radius: 1rem; border-bottom-left-radius: 1rem; font-size:20px; letter-spacing: 2px; font-weight:bolder; margin-top:-13px; margin-left:0px;  cursor:pointer;}
 
-.aboutwe_subscribe_button {background-color: black; color:whitesmoke; width:4cm; height:1cm; padding:2.5%; border:1px solid black; border-radius:10%; font-size:20px; letter-spacing: 2px; font-weight:bolder; margin-top:-13px; margin-left:0px;  cursor:pointer;}
+.aboutwe_subscribe_button {background-color: black; color:whitesmoke; width:7cm; height:1cm; padding:2.5%; border:1px solid black; border-top-left-radius: 1rem; border-top-right-radius: 1rem; border-bottom-right-radius: 1rem; border-bottom-left-radius: 1rem;font-size:20px; letter-spacing: 2px; font-weight:bolder; margin-top:-13px; margin-left:0px;  cursor:pointer;}
 
 
 
@@ -368,13 +446,13 @@ class="videos_options"*/
 .feedbackform_questions {font-size:16px; word-spacing:3px; letter-spacing:2px; font-weight:10px;} 
 .feedbackFormPart1 {line-height:3em;}
 .feedback_expression {cursor:pointer; position: relative; margin-top:-9px; margin-left: 5%; width:60px; height:60px; z-index:-1 ;}
-#abouwe_feedback_form {border:2px dashed rgb(255, 255, 255);line-height: 1.8em; margin-top:0px; margin-left:0px; margin-right:0px; margin-bottom:20px; padding: 3%; background-color: whitesmoke; border-radius:3%;  color:black; width:90%;}
+#aboutwe_feedback_form {border:2px dashed rgb(255, 255, 255);line-height: 1.8em; margin-top:0px; margin-left:0px; margin-right:0px; margin-bottom:20px; padding: 3%; background-color: whitesmoke; border-radius:3%;  color:black; width:90%;}
 .feedback_expression_labels {font-size:50px; cursor:pointer;}
 .feedback_expression_writeup {display:none; font-size:13px; margin:10%; background:rgb(228, 165, 4); color:whitesmoke; font-weight:bolder; margin-top:-20%; border-radius:5%}
 .feedback_points {width:18px; height:23px; color:black;}
 .feedback_points_labels {position:absolute; margin-top:-30px; font-size: 12px; color:red;}
 #feedback_button_div {border:1px solid whitesmoke; width:100%; margin-top:50px; margin-left:0px; margin-right:0px; margin-bottom:0px;  padding:0;}
-.aboutwe_feedback_button1{border:3px solid #00a5b8; width:50%; cursor:pointer; height:1cm; border-radius:0.2cm; padding-left:10px; padding-right:10px; margin:5px; text-align:center; background:#00a5b8; color:white; font-weight:bolder; font-size:22px;}
+.aboutwe_feedback_button1{border:3px solid #00a5b8; width:50%; cursor:pointer; height:1cm; border-top-left-radius: 1rem; border-top-right-radius: 1rem; border-bottom-right-radius: 1rem; border-bottom-left-radius: 1rem;padding-left:10px; padding-right:10px; margin:5px; text-align:center; background:#00a5b8; color:white; font-weight:bolder; font-size:22px;}
 .aboutwe_feedback_button1:hover{text-decoration: underline 2px whitesmoke;}
 .aboutwe_feedback_button2{border:3px solid whitesmoke; cursor:pointer; height:1cm; border-radius:1cm; background:whitesmoke; color:#00a5b8; font-weight:bolder; font-size:17px;}
 .aboutwe_feedback_button2:hover {text-decoration: underline #00a5b8 3px; transition-property:underline; transition-duration: .2s; transition-timing-function:ease-in-out; transition-delay: 0s;}
